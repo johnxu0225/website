@@ -1,0 +1,134 @@
+/*
+  Add style rules for the body of a your webpage.
+  Note: These rules will be applied to all elements.
+*/
+
+body {
+
+    /* Add a background color or image */
+    background-color: #FAFAEB;
+    background-image: url('');
+
+    /* Customize the font, size, and color for text*/
+    font-family: Roboto;
+    font-size: 18px;
+    color: black;
+
+    /* Adjust the padding and margins */
+    padding-top: 0;
+    padding-left: 0px;
+    padding-right: 0;
+    padding-bottom: 0px;
+
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
+}
+
+
+/*
+  Style Text: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+.header-image {
+  padding-top: 20px; /* add padding to the inside of the element */
+  margin-bottom: 10px; /* add margin to the bottom of the element */
+}
+
+h1 {
+color: #3778C2;
+margin-top: 10px;
+margin-bottom: 0px;
+}
+
+h2 {
+color: #3778C2;
+margin-top: 50px;
+}
+
+h3 {
+margin-top: 20px;
+}
+
+p {
+margin-top: 0px;
+
+}
+
+a {
+  color: #293241;
+  text-decoration: underline;
+}
+
+
+/*
+  Style Lists: Styles added to the ol or ul style rulesets affect the entire
+  list, while styles added to the li style ruleset affect individual list items
+*/
+
+
+ol {
+
+}
+
+ol li {
+
+}
+
+
+ul {
+
+}
+
+ul li {
+
+}
+
+
+
+/* Select and style elements by class name or ID */
+
+
+/* Example: This styles elements with class="header"*/
+
+
+.header-button {
+  background-color:  #008CBA;
+  border: none;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding: 15px 32px;
+  cursor: pointer;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.header-button:hover {
+  color: #06D6A0;
+  background-color: #1B9AAA;
+}
+.header-button:active {
+	color: #3d5a80 ;
+	background-color: #98c1d9 ;
+}
+a:hover {
+  color: #1B9AAA;
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Example: This styles an element with an id="header-img" */
+#header-img {
+
+}
